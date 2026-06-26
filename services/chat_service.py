@@ -30,7 +30,7 @@ def send_message(messages, question):
             f"{result_cep['localidade']}/{result_cep['uf']}."
         )
 
-        print(result_cep)
+        print(cep_address)
         return
 
 
